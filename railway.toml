@@ -2,8 +2,6 @@
   startCommand = "n8n start --tunnel"
   healthCheckPath = "/healthz"
   healthCheckTimeout = 300
-  restartPolicyType = "on-failure"
-  restartPolicyMaxRetries = 8
 
 [service]
   ports = ["5678"]
