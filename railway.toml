@@ -4,3 +4,5 @@ startCommand = "n8n start"
 # healthcheckTimeout = 300
 restartPolicyType = "on_failure"
 restartPolicyMaxRetries = 8
+[service]
+  ports = ["5678"]
